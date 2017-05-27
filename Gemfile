@@ -33,8 +33,9 @@ group :development, :test do
 end
 
 group :test do
-  gem 'database_cleaner'
+  gem 'database_rewinder'
   gem 'launchy'
+  gem "shoulda-matchers"
 end
 
 group :development do
